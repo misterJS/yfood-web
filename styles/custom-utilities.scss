@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&family=Rubik&family=Yantramanav&display=swap');
+
+// for custom style
+:root {
+  --yf-theme-color: #8a8a8a;
+  --yf-base-color: #5ba85f;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.footer-section {
+  color: var(--yf-theme-color);
+}
+
+.font-fjalla,
+.text-fjalla {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.font-lato,
+.text-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-yantramanav,
+.text-yantramanav {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.04em
+}
+
+.google-button {
+  background-color: #F8FAFC !important;
+  border: 1px solid #E8E8E8 !important;
+  width: 100%;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  overflow: hidden;
+  height: 52px;
+  justify-content: center;
+  flex-direction: row-reverse;
+  color: #0F172A !important;
+
+  div {
+    margin-right: 0 !important;
+    background: transparent !important;
+  }
+
+  span {
+    font-weight: 600 !important;
+    padding: 10px 60px 10px 60px !important;
+    font-family: 'Lato', sans-serif;
+  }
+}
